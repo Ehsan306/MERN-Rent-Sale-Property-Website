@@ -1,0 +1,323 @@
+/*Fonts
+font-family: 'Roboto', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Anton', sans-serif;
+font-family: 'Mulish', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+/**/
+.btn-success{
+  background-color: rgb(76, 187, 76);
+  border: 1px solid rgb(76, 187, 76);
+  border-radius: 2px;
+}
+
+.btn-outline-success{
+  border: 1px solid rgb(76, 187, 76);
+  color: rgb(76, 187, 76);
+  border-radius: 2px;
+}
+.btn-outline-success:hover{
+  background-color: rgb(76, 187, 76);
+}
+
+.btn-outline-info,.btn-info{
+  border-radius: 2px;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+.logo{
+  display: inline;
+  color: yellow;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 3px;
+}
+.logo2{
+  color: #5bc0de;
+  display: inline;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 3px;
+}
+.iconBackground{
+  background-color: #b235bb;
+  color: white;
+  padding: 5px 5px;
+}
+
+.formBanner{
+  background-color: #5bc0de;
+  color: white;
+  padding: 5px 5px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.navbarContent{
+  margin-left: 75%;
+}
+.dp{
+  height: 200px;
+  width: 100%;
+}
+
+.App{
+  background-color: whitesmoke;
+}
+.pages{
+  background-color: white;
+  display: block;
+}
+.line{
+  border-bottom: 1px solid whitesmoke;
+}
+
+.formLabels{
+  font-size: x-small;
+  margin-bottom: -2px;
+}
+/*Modal Box*/
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a{
+  background-color: #647679 ;
+  border-color: #47ccde ;
+  color: #fff;
+}
+.pagination > li > a{
+  border: 1px solid #47ccde ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #47ccde ;
+  border-color: #47ccde;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #47ccde
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
+
+/*Card*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: left;
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.cardBody{
+  padding: 14px;
+  margin: 10px;
+}
+.title{
+  color: black;
+  font-size: 17px;
+  font-family: 'Mulish', sans-serif;
+  cursor: pointer;
+}
+.title:hover{
+  color: rgb(76, 187, 76);
+}
+.address {
+  color: grey;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: -0.5%;
+  opacity: 0.6;
+}
+.price {
+  color: rgb(138, 233, 138);
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.cardHead{
+  overflow: hidden;
+  position: relative;
+}
+.status{
+  font-size: medium;
+  background-color: rgb(76, 187, 76);
+  color: white;
+  font-size: 15px;
+  border-radius: 2px;
+}
+.cardHead .status{
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 60%;
+  right: 0;
+  top: 5%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 30%; /* Set the width of the positioned div */
+}
+.card img{
+	  width: 100%;
+    height: 260px;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+}
+.card img:hover{
+  transform: scale(1.1) rotate(2deg);
+  opacity: 0.8;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+.card button{
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: bolder;
+}
+.btn-default{
+  border-radius: 2px;
+  color: rgb(76, 187, 76);
+}
+.btn-default:hover{
+  background-color: rgb(76, 187, 76);
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.cardHead img {vertical-align: middle;}
+
+.cardHead .content1 {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.65); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.content1{
+  font-size: smaller;
+}
+
+.park{
+  font-weight: bolder;
+  display: inline;
+  background-color: black;
+  padding: 5px 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+  color: white;
+}
+.line2{
+  border-bottom: 1px solid rgb(236, 224, 224);
+}
+.detailTypes{
+  font-size: 17px;
+  font-weight: bold;
+}
+
+/*Detail Page*/
+.addressDetails{
+  display: inline;
+  color: rgb(76, 187, 76);
+  font-weight: bold;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+
+.fa-angle-right{
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.detailTitle{
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+
+/*Carousal*/
+.slideShow{
+  width: 100%;
+}
+.slideShow1{
+  width: 800px;
+  height: 300px;
+}
+.custom-toggler.navbar-toggler { 
+  border-color: 1px solid rgb(76, 187, 76);
+} 
+.toggler-icon{
+  color: rgb(76, 187, 76);
+
+}
+
+.propertyDetails{
+  padding-left: 55px;
+  padding-right: 55px;
+}
+.description{
+  color: #323a3b;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .webLocation{
+    background-color: rgb(22, 21, 21);
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 4px;
+  }
+  .addressDetails{
+    display: inline;
+    color: rgb(116, 245, 116);
+    margin-left: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}
+.headings{
+  font-size: 20px;
+}
+
+/*Admin Sidebar*/
+
+
+.adminLogo{
+  background-color: #343a40;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.filterBox{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
